@@ -1,0 +1,2 @@
+* ahab
+early stage ergonomic go cli library like rust's quicli
