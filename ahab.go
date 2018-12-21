@@ -18,8 +18,8 @@ var Log = logrus.New()
 func init() {
 	Log.SetOutput(os.Stdout)
 	formatter := logrus.TextFormatter{}
-	formatter.DisableTimestamp = true
-	formatter.DisableLevelTruncation = true
+	// formatter.DisableTimestamp = true
+	// formatter.DisableLevelTruncation = true
 	Log.SetFormatter(&formatter)
 }
 
